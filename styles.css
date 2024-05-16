@@ -1,4 +1,4 @@
-.cabecalho{background-color: aquamarine;
+.cabecalho{background-color: rgb(102, 23, 148);
 display: flex;
 padding: 30px;
 font-size: 24px;
@@ -17,7 +17,8 @@ cabecalho-imagem{
 }
 
 /*SECÇÃO TURMA*/
-.turma{background-image: linear-gradient(rgba(6,19,95,0.705),rgba(182,));
+.turma{background-image:linear-gradient(rgb(75, 2, 97),rgb(141, 10, 218)
+    );
     padding: 30px;
 
 }
@@ -36,5 +37,60 @@ turma-div{
 }
 turma-imagem{
     width: 300px;
+    height: 600px;
 
 }
+
+/*SECÇÃO ESTUDANTE*/
+.estudante{
+    background-image:linear-gradient(rgb(93, 25, 148),rgb(165, 61, 224)
+
+    );
+}
+
+.estudante-titulo{
+    text-align:center;
+    font-size:26px;
+    padding:30px
+}
+
+.estudante-todos{
+    display:grid;
+    grid: template columns 20% 20% 20% 20% 20%;
+}
+
+.estudante-div{
+    text-align:center;
+}
+
+.estudante-imagem{
+    width:100px;
+    margin:0 50px;
+
+}
+
+.estudante-icone{
+    width:100px;
+    padding:30px;
+
+}
+
+.estudante-legenda{
+    font-size:20px;
+
+}
+
+/*SECÇÃO RODAPÉ*/
+
+
+
+.rodape{
+    background-color: black;
+    color:white;
+    text-align:center;
+    padding:30px 0;
+
+}
+
+
+
